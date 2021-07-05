@@ -18,17 +18,17 @@ if selected == 'Home':
 elif selected == 'Face Detection':
     st.write('## {}'.format(selected))
     st.write('Please upload an image. It will detect eyes and draw box around the detected face.')
-    cascade_file = 'haar-cascade-files/haarcascade_frontalface_default.xml'
+    cascade_file = 'haarcascade_frontalface_default.xml'
 
 elif selected == 'Eyes Detection':
     st.write('## {}'.format(selected))
     st.write('Please upload an image. It will detect eyes and draw boxes around the detected eyes.')
-    cascade_file = 'haar-cascade-files/haarcascade_eye.xml'
+    cascade_file = 'haarcascade_eye.xml'
 
 # elif selected == 'Emotion Detection':
     # st.write('## {}'.format(selected))
     # st.write('Please upload an image. It will detect emotion of a human.')
-    # cascade_file = 'haar-cascade-files/haarcascade_frontalface_default'
+    # cascade_file = 'haarcascade_frontalface_default'
     # st.warning('Emotion Detection is under maintainence... Please stay tuned for the update on this...')
 
 # displays upload image option only if the page is not Home page
