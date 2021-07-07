@@ -20,7 +20,7 @@ if selected == 'Home':
     st.write("It should be noted that detection is not done on trained data. It is done using the __*Harcascades Files*__. You can visit the harcascades GitHub [here]('https://github.com/opencv/opencv/tree/master/data/haarcascades)")
     st.write('Please select one of the options from the __*left sidebar*__.')
     st.write('')
-    "For the code, please visit the GitHub Repository: [Detection_In_Images]('https://github.com/Sandeep-Panchal/Detection_In_Images')"
+    st.write("For the code, please visit the GitHub Repository: [Detection_In_Images]('https://github.com/Sandeep-Panchal/Detection_In_Images')"
     st.write('')
     st.write('')
 
