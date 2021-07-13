@@ -11,3 +11,6 @@
 
 ### Web App Link:
  - https://share.streamlit.io/sandeep-panchal/detection_in_images_deployed_in_streamlit/main/image_processing_ui.py
+
+### Future Work:
+ - To add additional features such as object detection,human emotion detection, smile detection, etc.
