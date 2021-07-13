@@ -1,13 +1,18 @@
-# Detection In Images
+## Detection In Images
+<br>
 
-## Objective:
- - Given the image, functionality should be able to detect eyes, faces, smiles, object, emotion of a human, etc, based on the feature (viz eyes detection, face detection, etc) selected by the user.
+### Objective:
+ - Detect eyes, faces, smiles, objects, emotion of humans, etc, from the uploaded image based on the feature (viz eyes detection, face detection, etc) selected by the user.
 
-### Approaches:
-  - Eyes Detection:
-    - To detect eyes of the person/people in the uploaded image, I have used Harcascades file - haarcascade_eye.xml .
-  - Face Detection
+<br>
 
-# Working on it...
+### Approach:
+ - __Library For Image Processing:__ [OpenCV](https://opencv.org/)
+ - __For Eyes and Face Detection__: haarcascade_eye.xml for eyes detection and haarcascade_frontalface_default.xml for face detection. [Harcascades GitHub Repositiory](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+ - __Frontend UI Framework__: [Streamlit](https://streamlit.io/)
+ - __Deployment Framework__: [Streamlit](https://streamlit.io/)
 
-Deployed Streamlit Web App Link: https://share.streamlit.io/sandeep-panchal/detection_in_images_deployed_in_streamlit/main/image_processing_ui.py
+<br>
+
+### Web App Link:
+ - https://share.streamlit.io/sandeep-panchal/detection_in_images_deployed_in_streamlit/main/image_processing_ui.py
